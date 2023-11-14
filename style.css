@@ -570,6 +570,26 @@ span {
     .portfolio-container {
         grid-template-columns: 1fr;
     }
+
+     .services-container .services-box {
+     & .logos {
+       
+       & ul {
+        display: inline;
+        list-style: none;
+        
+         & li {
+            padding: 30px;
+           
+            & img {
+                 width: 30%;
+            }
+        }
+        }
+       
+    }
+}
+
 }
 
 @media (max-width: 450px) {
@@ -580,6 +600,26 @@ span {
     .contact form .input-box input {
         width: 100%;
     }
+
+     .services-container .services-box {
+     & .logos {
+       
+       & ul {
+        display: inline;
+        list-style: none;
+        
+         & li {
+            padding: 30px;
+           
+            & img {
+                 width: 30%;
+            }
+        }
+        }
+       
+    }
+}
+
 }
 
 @media (max-width: 365px) {
@@ -590,6 +630,26 @@ span {
     .about-img img {
         width: 90vw;
     }
+
+     .services-container .services-box {
+     & .logos {
+       
+       & ul {
+        display: inline;
+        list-style: none;
+        
+         & li {
+            padding: 30px;
+           
+            & img {
+                 width: 30%;
+            }
+        }
+        }
+       
+    }
+}
+
 
     .footer {
         flex-direction: column-reverse;
