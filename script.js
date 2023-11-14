@@ -55,5 +55,16 @@ const typed = new Typed('#multiple-text', {
     loop: true
 });
 
+function sendEmail() {
+  const message = `
+    Full Name: ${document.querySelector('fullName').value}
+    Email Address: ${document.querySelector('emailAddress').value}
+    Mobile Number: ${document.querySelector('mobileNumber').value}
+    Email Subject: ${document.querySelector('emailSubject').value}
+    Your Message: ${document.querySelector('message').value}
+  `;
+
+  window.location.href = `mailto:menna10_adel@hotmail.com?subject=Contact Form Submission&body=${message}`;
+}
 
 
