@@ -100,8 +100,8 @@ section {
 
 .home {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
 }
 
 .home-img img {
@@ -111,7 +111,7 @@ section {
 	 background-position: center center;
 	 background-repeat: no-repeat;
 	 border: 3px solid var(--second-bg-color);
-	 animation: morph 8s ease-in-out infinite;
+	 animation: morph 6s ease-in-out infinite;
 	 border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
 	 position: relative;
 	 transition: all 1s ease-in-out;
@@ -202,6 +202,11 @@ span {
     align-items: center;
     gap: 2rem;
     background: var(--second-bg-color);
+
+    .hidden {
+  display: none;
+}
+
 }
 
 .heading {
@@ -215,11 +220,11 @@ span {
 }
 
 .about-content h3 {
-    font-size: 2.6rem;
+    font-size: 3rem;
 }
 
 .about-content p {
-    font-size: 1.6rem;
+    font-size: 2.6rem;
     margin: 2rem 0 3rem;
 }
 
@@ -297,7 +302,7 @@ span {
 
 .portfolio-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr );
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr) );
     align-items: center;
     gap: 2.5rem;
     
@@ -309,7 +314,6 @@ span {
     box-shadow: 0 0 1rem var(--bg-color);
     overflow: hidden;
     display: flex;
-    height: 300px;
 }
 
 .portfolio-box img {
@@ -320,7 +324,6 @@ span {
 .portfolio-box:hover img {
     height: 100%;
     width: 100%;
-    transform: translateY(-83%);
     transition: transform 10s ease-in-out 0s;
 }
 
@@ -561,8 +564,8 @@ span {
         margin-bottom: 3rem;
     }
 
-    .portfolio-container {
-        grid-template-columns: repeat(2, 1fr);
+     .portfolio-container {
+        grid-template-columns: 1fr;
     }
 }
 

@@ -68,3 +68,15 @@ function sendEmail() {
 }
 
 
+const readMoreBtn = document.querySelector('.read-more-btn');
+const hiddenText = document.querySelector('.hidden');
+
+readMoreBtn.addEventListener('click', () => {
+  if (hiddenText.style.display === 'none') {
+    hiddenText.style.display = 'block';
+    readMoreBtn.textContent = 'Read Less';
+  } else {
+    hiddenText.style.display = 'none';
+    readMoreBtn.textContent = 'Read More';
+  }
+});
