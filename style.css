@@ -450,12 +450,15 @@ span {
     html {
         font-size: 55%;
     }
+
 }
 @media (max-width: 991px) {
+    
     .header {
         padding: 2rem 3%;
     }
 
+   
     section {
         padding: 10rem 3% 2rem;
     }
@@ -496,10 +499,11 @@ span {
         border-top: .1rem solid rgba(0, 0, 0, .2);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
         display: none;
+    
     }
 
     .navbar.active {
-        display: block;
+        display: block; 
     }
 
     .navbar a {
@@ -574,6 +578,14 @@ span {
 }
 
 @media (max-width: 617px) {
+     .home {
+    flex-direction: column-reverse;
+  }
+
+  .home-img {
+    order: 1;
+  }
+
     .portfolio-container {
         grid-template-columns: 1fr;
     }
