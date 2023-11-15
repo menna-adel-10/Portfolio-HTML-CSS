@@ -256,7 +256,7 @@ span {
         
 
        & ul {
-        list-style: none;
+        
         display: inline-flex;
         padding: 20px;
         
@@ -555,7 +555,7 @@ span {
        
        & ul {
         display: inline;
-        list-style: none;
+        
         
          & li {
             padding: 30px;
@@ -596,7 +596,7 @@ span {
        
        & ul {
         display: inline;
-        list-style: none;
+        
         
          & li {
             padding: 30px;
@@ -626,7 +626,7 @@ span {
        
        & ul {
         display: inline;
-        list-style: none;
+        
         
          & li {
             padding: 30px;
@@ -656,7 +656,7 @@ span {
        
        & ul {
         display: inline;
-        list-style: none;
+        
         
          & li {
             padding: 30px;
