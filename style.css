@@ -268,7 +268,7 @@ span {
                 padding: 60px;
 
                 & img {
-                    width: 150%;
+                    width: 170%;
                     height: auto;
 
                 }
@@ -456,6 +456,24 @@ span {
         font-size: 55%;
     }
 
+        .services-container .services-box {
+            & .logos {
+    
+                & ul {
+                    display: inline;
+    
+    
+                    & li {
+    
+                        & img {
+                            width: 150%;
+                        }
+                    }
+                }
+    
+            }
+        }
+
 }
 
 @media (max-width: 991px) {
@@ -480,6 +498,24 @@ span {
     .portfolio-container {
         grid-template-columns: 1fr;
     }
+
+        .services-container .services-box {
+            & .logos {
+    
+                & ul {
+                    display: inline;
+    
+    
+                    & li {
+    
+                        & img {
+                            width: 150%;
+                        }
+                    }
+                }
+    
+            }
+        }
 
     .contact {
         min-height: auto;
@@ -565,7 +601,7 @@ span {
                 & li {
 
                     & img {
-                        width: 120%;
+                        width: 140%;
                     }
                 }
             }
@@ -634,7 +670,7 @@ span {
                 & li {
 
                     & img {
-                        width: 70%;
+                        width: 80%;
                     }
                 }
             }
@@ -663,7 +699,7 @@ span {
                 & li {
 
                     & img {
-                        width: 60%;
+                        width: 70%;
                     }
                 }
             }
