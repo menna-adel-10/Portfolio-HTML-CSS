@@ -252,6 +252,7 @@ span {
     text-align: center;
     border: .2rem solid var(--bg-color);
     transition: .5s ease;
+    justify-content: center;
 
     & .logos {
         align-items: center;
