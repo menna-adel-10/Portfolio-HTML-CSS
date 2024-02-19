@@ -477,6 +477,25 @@ span {
         grid-template-columns: 1fr;
     }
 
+        .services-container .services-box {
+            & .logos {
+    
+                & ul {
+                    display: inline;
+    
+    
+                    & li {
+                        padding: 10px;
+    
+                        & img {
+                            width: 150%;
+                        }
+                    }
+                }
+    
+            }
+        }
+
     .contact {
         min-height: auto;
     }
