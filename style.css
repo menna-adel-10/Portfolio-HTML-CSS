@@ -261,8 +261,7 @@ span {
         padding: 20px;
         
          & li {
-            padding: 60px;
-            margin: 4px;
+            padding: 30px;
            
             & img {
                  width: 150%;
