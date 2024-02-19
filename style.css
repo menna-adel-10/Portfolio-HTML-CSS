@@ -604,7 +604,7 @@ span {
                 & li {
 
                     & img {
-                        width: 110%;
+                        width: 100%;
                     }
                 }
             }
@@ -633,7 +633,7 @@ span {
                 & li {
 
                     & img {
-                        width: 100%;
+                        width: 70%;
                     }
                 }
             }
@@ -662,7 +662,7 @@ span {
                 & li {
 
                     & img {
-                        width: 100%;
+                        width: 60%;
                     }
                 }
             }
