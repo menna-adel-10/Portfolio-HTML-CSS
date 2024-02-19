@@ -477,25 +477,6 @@ span {
         grid-template-columns: 1fr;
     }
 
-        .services-container .services-box {
-            & .logos {
-    
-                & ul {
-                    display: inline;
-    
-    
-                    & li {
-                        padding: 10px;
-    
-                        & img {
-                            width: 150%;
-                        }
-                    }
-                }
-    
-            }
-        }
-
     .contact {
         min-height: auto;
     }
@@ -581,7 +562,7 @@ span {
             padding: 10px;
            
             & img {
-                 width: 140%;
+                 width: 120%;
             }
         }
         }
@@ -641,25 +622,6 @@ span {
         width: 100%;
     }
 
-     .services-container .services-box {
-     & .logos {
-       
-       & ul {
-        display: inline;
-        
-        
-         & li {
-            padding: 10px;
-           
-            & img {
-                 width: 120%;
-            }
-        }
-        }
-       
-    }
-}
-
 }
 
 @media (max-width: 365px) {
@@ -670,25 +632,6 @@ span {
     .about-img img {
         width: 90vw;
     }
-
-     .services-container .services-box {
-     & .logos {
-       
-       & ul {
-        display: inline;
-        
-        
-         & li {
-            padding: 5px;
-           
-            & img {
-                 width: 120%;
-            }
-        }
-        }
-       
-    }
-}
 
 
     .footer {
