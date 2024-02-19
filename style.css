@@ -560,6 +560,7 @@ span {
         
          & li {
             padding: 10px;
+            margin: 40px;
            
             & img {
                  width: 120%;
