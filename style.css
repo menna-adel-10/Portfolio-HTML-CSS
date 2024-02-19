@@ -264,7 +264,7 @@ span {
             padding: 20px;
 
             & li {
-                padding: 40px;
+                padding: 60px;
 
                 & img {
                     width: 150%;
@@ -660,10 +660,9 @@ span {
 
 
                 & li {
-                    padding: 5px;
 
                     & img {
-                        width: 90%;
+                        width: 100%;
                     }
                 }
             }
