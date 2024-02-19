@@ -454,7 +454,7 @@ span {
     }
 
 }
-@media (max-width: 991px) {
+@media ( max-width: 991px) {
     
     .header {
         padding: 2rem 3%;
@@ -559,8 +559,8 @@ span {
         
         
          & li {
-            padding: 30px;
-            margin: 50px;
+            padding: 50px;
+            margin: 60px;
            
             & img {
                  width: 120%;
