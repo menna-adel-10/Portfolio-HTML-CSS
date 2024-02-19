@@ -262,6 +262,7 @@ span {
         
          & li {
             padding: 30px;
+            margin: 10px;
            
             & img {
                  width: 150%;
