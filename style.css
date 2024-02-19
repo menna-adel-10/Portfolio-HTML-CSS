@@ -261,11 +261,11 @@ span {
         padding: 20px;
         
          & li {
-            padding: 30px;
+            padding: 20px;
             margin: 60px;
            
             & img {
-                 width: 150%;
+                 width: 100%;
                  height: auto;
 
             }
