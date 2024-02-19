@@ -562,7 +562,7 @@ span {
             padding: 10px;
            
             & img {
-                 width: 100%;
+                 width: 80%;
             }
         }
         }
@@ -600,10 +600,10 @@ span {
         
         
          & li {
-            padding: 30px;
+            padding: 10px;
            
             & img {
-                 width: 30%;
+                 width: 70%;
             }
         }
         }
@@ -630,10 +630,10 @@ span {
         
         
          & li {
-            padding: 30px;
+            padding: 10px;
            
             & img {
-                 width: 30%;
+                 width: 60%;
             }
         }
         }
@@ -660,10 +660,10 @@ span {
         
         
          & li {
-            padding: 30px;
+            padding: 5px;
            
             & img {
-                 width: 30%;
+                 width: 50%;
             }
         }
         }
